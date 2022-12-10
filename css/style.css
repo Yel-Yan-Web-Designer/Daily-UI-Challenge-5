@@ -1,0 +1,90 @@
+/*?------------------------------------?*/
+/* ? CUSTOM PROPERTIES? */
+/*?------------------------------------?*/
+
+@import url(./fonts.css);
+
+:root{
+    
+    /* !COLORS! */
+    --clr-primary : hsl(35, 77%, 62%);
+    --clr-secondary : hsl(5, 85%, 63%);
+    --clr-off-white : hsl(36, 100%, 99%);
+    --clr-gray-blue : hsl(233, 8%, 79%);
+    --clr-dark-gray-blue : hsl(236, 13%, 42%);
+    --clr-very-dark-blue : hsl(240, 100%, 5%);
+
+
+    /* !FONTS */
+    --fs-sm : 12px;
+    --fs-normal : 15px;
+    --fs-lg : 23px;
+    --fs-xlg : 31px;
+
+    --fw-normal : 400;
+    --fw-bold : 700;
+    --fw-bolder : 800;
+
+    --ff-normal : "Inter, Regular";
+    --ff-bold : "Inter, Bold";
+    --ff-bolder : "Inter, Bolder";
+}
+
+/*?-----------------------------------?*/
+/* ? GLOBAL STYLE? */
+/*?-----------------------------------?*/
+html{
+    scroll-behavior: smooth;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--clr-off-white);
+    color: var(--clr-gray-blue);
+    font-weight: var(--fw-normal);
+    font-size: var(--fs-normal);
+    font-family: var(--ff-normal);
+    line-height: 1.45;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+/* ---Reset Margins--- */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture{
+    margin: 0; /*prevent margins collapsing*/
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: 400; /* explicit setting default font weight */
+}
+/*?-----------------------------------?*/
+/* ? NAVIGATION ? */
+/*?-----------------------------------?*/
+/*?-----------------------------------?*/
+/* ? HERO SECTION ? */
+/*?-----------------------------------?*/
+/*?-----------------------------------?*/
+/* ? ARTICLE ? */
+/*?-----------------------------------?*/
+
