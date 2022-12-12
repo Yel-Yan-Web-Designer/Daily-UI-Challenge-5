@@ -4,9 +4,9 @@
 }
 @font-face {
     font-family: "Inter, Bold";
-    src: url("../assets/fonts/static/Inter-Regular.ttf");
+    src: url("../assets/fonts/static/Inter-Bold.ttf");
 }
 @font-face {
     font-family: "Inter, Bolder";
-    src: url("../assets/fonts/static/Inter-Regular.ttf");
+    src: url("../assets/fonts/static/Inter-ExtraBold.ttf");
 }
